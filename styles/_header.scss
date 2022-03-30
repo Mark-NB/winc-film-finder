@@ -1,0 +1,11 @@
+.main-header {
+    background-color: $my-blue3;
+
+    &__title {
+        color: $my-light1;
+        margin: 0;
+        text-align: center;
+        font-size: 3rem;
+        @include my-padding;
+    }
+}

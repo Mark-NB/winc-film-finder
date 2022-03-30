@@ -1,0 +1,26 @@
+$my-light1: #fff7d9;
+$my-light2: #ffe6b6;
+$my-light3: #ffcc98;
+$my-blue1: #53ccec;
+$my-blue2: #1974d3;
+$my-blue3: #000181;
+
+@mixin my-grid {
+    display: grid;
+    justify-items: center;
+}
+
+@mixin my-flexbox($dir: row)  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $dir;
+}
+
+@mixin my-margin() {
+    margin: 1rem;
+}
+
+@mixin my-padding() {
+    padding: 2rem 1rem;
+}

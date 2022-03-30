@@ -1,0 +1,9 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@import './constants';
+@import './header';
+@import './nav';
+@import './main';

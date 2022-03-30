@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
     <script defer src="./scripts/data.js"></script>
@@ -19,16 +24,26 @@
     </header>
 
     <nav class="nav">
-        <input type="radio" name="movie-filters" value="latest" id="latest-btn" class="nav__btn">
-        <label for="option1">Latest movies (2014 or newer)</label>
-        <input type="radio" name="movie-filters" value="avengers" id="avengers-btn" class="nav__btn">
-        <label for="option2">Avengers movies</label>
-        <input type="radio" name="movie-filters" value="xmen" id="xmen-btn" class="nav__btn">
-        <label for="option3">X-Men movies</label>
-        <input type="radio" name="movie-filters" value="princess" id="princess-btn" class="nav__btn">
-        <label for="option4">Princess movies</label>
-        <input type="radio" name="movie-filters" value="batman" id="batman-btn" class="nav__btn">
-        <label for="option5">Batman movies</label>
+        <label for="option1">
+            <input type="radio" name="movie-filters" value="latest" id="latest-btn" class="nav__btn">
+            Latest movies (2014 or newer)
+        </label>
+        <label for="option2">
+            <input type="radio" name="movie-filters" value="avengers" id="avengers-btn" class="nav__btn">
+            Avengers movies
+        </label>
+        <label for="option3">
+            <input type="radio" name="movie-filters" value="xmen" id="xmen-btn" class="nav__btn">
+            X-Men movies
+        </label>
+        <label for="option4">
+            <input type="radio" name="movie-filters" value="princess" id="princess-btn" class="nav__btn">
+            Princess movies
+        </label>
+        <label for="option5">
+            <input type="radio" name="movie-filters" value="batman" id="batman-btn" class="nav__btn">
+            Batman movies
+        </label>
         <form class="nav__search-form" role="search">
             <input type="search" name="movie-search" placeholder="Search..." id="search-box" class="nav__search"
                 aria-label="Search for movies">
@@ -38,7 +53,6 @@
 
     <main class="main">
         <ul class="main__list">
-
         </ul>
     </main>
 

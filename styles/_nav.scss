@@ -1,0 +1,14 @@
+.nav {
+    background-color: $my-light2;
+    border-bottom: 20px solid $my-blue3;
+    @include my-flexbox;
+    flex-wrap: wrap;
+
+    &__btn {
+        @include my-margin;
+    }
+
+    &__search-form {
+        @include my-margin;
+    }
+}
