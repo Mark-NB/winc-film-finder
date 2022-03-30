@@ -27,6 +27,7 @@ const addMoviesToDom = (movie) => {
     newA = document.createElement('a');
     newA.classList.add('main__link');
     newA.href = `https://www.imdb.com/title/${movie.id}/`;
+    newA.target = '_blank';
     newLi.appendChild(newA);
     newA.appendChild(movie);
 };
