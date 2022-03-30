@@ -1,9 +1,12 @@
-body {
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 @import './constants';
 @import './header';
 @import './nav';
 @import './main';
+
+body {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: $my-light1;
+}

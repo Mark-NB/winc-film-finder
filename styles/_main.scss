@@ -13,6 +13,7 @@
 
     &__list-item {
         @include my-flexbox;
+        background-color: $my-light1;
         border: solid 2px $my-blue1;
         border-radius: 1rem;
         box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
